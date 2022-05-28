@@ -1,0 +1,96 @@
+html.indexHTML {
+    height: 100%;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border-radius: 1.25rem;
+    transition: width 1s;
+}
+
+img:hover {
+    width: 500px;
+    height: auto;
+}
+
+p {
+    padding: 0% 0px 40px 0px;
+    text-align: center;
+}
+
+body.indexBody, body.hobbiesBody {
+    background-image: linear-gradient(to bottom right, purple, black);
+}
+
+body.hobbiesBody {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.indexContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 1.25rem;
+}
+
+.hobbiesContainer {
+   width: 50%;
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 1.25rem;
+    margin: 5% auto;
+}
+
+.indexInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.hobbyBtn {
+    border-radius: 1.25rem;
+    padding: 10px 15px;
+    background-color: aqua;
+    font-size: 16px;
+}
+
+button.hobbyBtn:hover { background-color: lightskyblue; }
+
+.homepageBtn {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.paragraphHobbies {
+    width: 35%;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    margin-right: 40px;
+}
