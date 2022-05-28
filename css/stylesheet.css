@@ -12,7 +12,7 @@ ul {
 
 img {
     border-radius: 1.25rem;
-    transition: width 1s;
+    transition: width 1s; 
 }
 
 img:hover {
